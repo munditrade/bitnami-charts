@@ -4,7 +4,7 @@ apiVersion: v2
 appVersion: 4.4.8
 dependencies:
   - name: common
-    repository: https://github.com/munditrade/bitnami-charts
+    repository: "file://./bitnami/common"
     tags:
       - bitnami-common
     version: 1.x.x
